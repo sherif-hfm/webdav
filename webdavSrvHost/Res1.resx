@@ -1,0 +1,165 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="lockReq" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8" ?&gt;
+&lt;D:lockinfo
+	xmlns:D="DAV:"&gt;
+	&lt;D:lockscope&gt;
+		&lt;D:exclusive/&gt;
+	&lt;/D:lockscope&gt;
+	&lt;D:locktype&gt;
+		&lt;D:write/&gt;
+	&lt;/D:locktype&gt;
+	&lt;D:owner&gt;
+		&lt;D:href&gt;DESKTOP-FP4SN02\user&lt;/D:href&gt;
+	&lt;/D:owner&gt;
+&lt;/D:lockinfo&gt;</value>
+  </data>
+  <data name="LockRes" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;
+&lt;D:prop
+	xmlns:D="DAV:"&gt;
+	&lt;D:lockdiscovery&gt;
+		&lt;D:activelock&gt;
+			&lt;D:locktype&gt;
+				&lt;D:write/&gt;
+			&lt;/D:locktype&gt;
+			&lt;D:lockscope&gt;
+				&lt;D:exclusive/&gt;
+			&lt;/D:lockscope&gt;
+			&lt;D:depth&gt;0&lt;/D:depth&gt;
+			&lt;D:owner&gt;
+				&lt;D:href&gt;DESKTOP-FP4SN02\user&lt;/D:href&gt;
+			&lt;/D:owner&gt;
+			&lt;D:timeout&gt;Second-3600&lt;/D:timeout&gt;
+			&lt;D:locktoken&gt;
+				&lt;D:href&gt;opaquelocktoken:e9962eb2-5a53-49df-830a-14db5a7899fc.088101d7ad90a509&lt;/D:href&gt;
+			&lt;/D:locktoken&gt;
+			&lt;D:lockroot&gt;
+				&lt;D:href&gt;http://localhost/doc1.docx&lt;/D:href&gt;
+			&lt;/D:lockroot&gt;
+		&lt;/D:activelock&gt;
+	&lt;/D:lockdiscovery&gt;
+&lt;/D:prop&gt;</value>
+  </data>
+  <data name="PropfindRes" xml:space="preserve">
+    <value>&lt;?xml version="1.0" encoding="utf-8"?&gt;&lt;D:multistatus xmlns:D="DAV:"&gt;&lt;D:response&gt;&lt;D:href&gt;http://localhost/&lt;/D:href&gt;&lt;D:propstat&gt;&lt;D:status&gt;HTTP/1.1 200 OK&lt;/D:status&gt;&lt;D:prop&gt;&lt;D:getcontenttype/&gt;&lt;D:getlastmodified&gt;Sun, 19 Sep 2021 19:34:24 GMT&lt;/D:getlastmodified&gt;&lt;D:lockdiscovery/&gt;&lt;D:ishidden&gt;0&lt;/D:ishidden&gt;&lt;D:supportedlock&gt;&lt;D:lockentry&gt;&lt;D:lockscope&gt;&lt;D:exclusive/&gt;&lt;/D:lockscope&gt;&lt;D:locktype&gt;&lt;D:write/&gt;&lt;/D:locktype&gt;&lt;/D:lockentry&gt;&lt;D:lockentry&gt;&lt;D:lockscope&gt;&lt;D:shared/&gt;&lt;/D:lockscope&gt;&lt;D:locktype&gt;&lt;D:write/&gt;&lt;/D:locktype&gt;&lt;/D:lockentry&gt;&lt;/D:supportedlock&gt;&lt;D:getetag/&gt;&lt;D:displayname&gt;/&lt;/D:displayname&gt;&lt;D:getcontentlanguage/&gt;&lt;D:getcontentlength&gt;0&lt;/D:getcontentlength&gt;&lt;D:iscollection&gt;1&lt;/D:iscollection&gt;&lt;D:creationdate&gt;2021-09-19T19:24:07.962Z&lt;/D:creationdate&gt;&lt;D:resourcetype&gt;&lt;D:collection/&gt;&lt;/D:resourcetype&gt;&lt;/D:prop&gt;&lt;/D:propstat&gt;&lt;/D:response&gt;&lt;D:response&gt;&lt;D:href&gt;http://localhost/doc1.docx&lt;/D:href&gt;&lt;D:propstat&gt;&lt;D:status&gt;HTTP/1.1 200 OK&lt;/D:status&gt;&lt;D:prop&gt;&lt;D:getcontenttype&gt;application/vnd.openxmlformats-officedocument.wordprocessingml.document&lt;/D:getcontenttype&gt;&lt;D:getlastmodified&gt;Mon, 20 Sep 2021 03:12:30 GMT&lt;/D:getlastmodified&gt;&lt;D:lockdiscovery/&gt;&lt;D:ishidden&gt;0&lt;/D:ishidden&gt;&lt;D:supportedlock&gt;&lt;D:lockentry&gt;&lt;D:lockscope&gt;&lt;D:exclusive/&gt;&lt;/D:lockscope&gt;&lt;D:locktype&gt;&lt;D:write/&gt;&lt;/D:locktype&gt;&lt;/D:lockentry&gt;&lt;D:lockentry&gt;&lt;D:lockscope&gt;&lt;D:shared/&gt;&lt;/D:lockscope&gt;&lt;D:locktype&gt;&lt;D:write/&gt;&lt;/D:locktype&gt;&lt;/D:lockentry&gt;&lt;/D:supportedlock&gt;&lt;D:getetag&gt;"d1a1f59cdadd71:0"&lt;/D:getetag&gt;&lt;D:displayname&gt;doc1.docx&lt;/D:displayname&gt;&lt;D:getcontentlanguage/&gt;&lt;D:getcontentlength&gt;11453&lt;/D:getcontentlength&gt;&lt;D:iscollection&gt;0&lt;/D:iscollection&gt;&lt;D:creationdate&gt;2021-09-19T19:33:00.278Z&lt;/D:creationdate&gt;&lt;D:resourcetype/&gt;&lt;/D:prop&gt;&lt;/D:propstat&gt;&lt;/D:response&gt;&lt;D:response&gt;&lt;D:href&gt;http://localhost/web.config&lt;/D:href&gt;&lt;D:propstat&gt;&lt;D:status&gt;HTTP/1.1 200 OK&lt;/D:status&gt;&lt;D:prop&gt;&lt;D:getcontenttype&gt;application/octet-stream&lt;/D:getcontenttype&gt;&lt;D:getlastmodified&gt;Sun, 19 Sep 2021 19:31:46 GMT&lt;/D:getlastmodified&gt;&lt;D:lockdiscovery/&gt;&lt;D:ishidden&gt;0&lt;/D:ishidden&gt;&lt;D:supportedlock&gt;&lt;D:lockentry&gt;&lt;D:lockscope&gt;&lt;D:exclusive/&gt;&lt;/D:lockscope&gt;&lt;D:locktype&gt;&lt;D:write/&gt;&lt;/D:locktype&gt;&lt;/D:lockentry&gt;&lt;D:lockentry&gt;&lt;D:lockscope&gt;&lt;D:shared/&gt;&lt;/D:lockscope&gt;&lt;D:locktype&gt;&lt;D:write/&gt;&lt;/D:locktype&gt;&lt;/D:lockentry&gt;&lt;/D:supportedlock&gt;&lt;D:getetag&gt;"3bd5bffb8cadd71:0"&lt;/D:getetag&gt;&lt;D:displayname&gt;web.config&lt;/D:displayname&gt;&lt;D:getcontentlanguage/&gt;&lt;D:getcontentlength&gt;168&lt;/D:getcontentlength&gt;&lt;D:iscollection&gt;0&lt;/D:iscollection&gt;&lt;D:creationdate&gt;2021-09-19T19:31:46.124Z&lt;/D:creationdate&gt;&lt;D:resourcetype/&gt;&lt;/D:prop&gt;&lt;/D:propstat&gt;&lt;/D:response&gt;&lt;/D:multistatus&gt;</value>
+  </data>
+</root>
